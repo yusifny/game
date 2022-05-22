@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container .span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+body .container .input {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .input input {
+  width: 150px;
+  height: 25px;
+  margin: 1%;
+  text-align: center;
+}
+
+body .container .input input:focus {
+  outline: none;
+}
+
+body .container .bounds {
+  height: 400px;
+  width: 400px;
+  border: 5px solid black;
+  margin: 0% auto;
+}
+
+body .container .bounds .game-area {
+  position: relative;
+}
+
+body .container .bounds .game-area .character {
+  height: 80px;
+  width: 80px;
+  border: 5px solid black;
+  border-radius: 50%;
+  margin: 150px auto;
+}
+
+body .container .joystick {
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+body .container .joystick .joystick-c {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+
+body .container .joystick .joystick-c .up {
+  height: 100px;
+  width: 50px;
+  background-color: black;
+  border: 1px solid white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .container .joystick .joystick-c .center {
+  height: 105px;
+  width: 50px;
+  background-color: #000000;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .container .joystick .joystick-c .down {
+  height: 100px;
+  width: 50px;
+  background-color: black;
+  border: 1px solid white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .container .joystick .joystick-r {
+  background-color: grey;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+body .container .joystick .joystick-r .left {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  background-color: black;
+  margin-top: 33%;
+}
+
+body .container .joystick .joystick-r .trsp {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+}
+
+body .container .joystick .joystick-r .right {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid white;
+  margin-top: 33%;
+}
